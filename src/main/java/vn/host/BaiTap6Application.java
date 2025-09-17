@@ -1,4 +1,4 @@
-package vn.host.baitap6;
+package vn.host;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

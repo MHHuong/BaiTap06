@@ -16,7 +16,7 @@ public class Category implements Serializable {
     @Column(name="categoryName", columnDefinition = "NVARCHAR(255)")
     private String categoryName;
 
-    @Column(columnDefinition = "NVARCHAR(MAX)")
-    private String image;
+    @Column(name="images", columnDefinition = "NVARCHAR(MAX)")
+    private String images;
 
 }
